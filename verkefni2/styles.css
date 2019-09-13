@@ -1,0 +1,114 @@
+h1 {
+    border: 3px solid green; 
+}
+.redb {
+    border: 3px solid red;
+    color: red;
+    padding: 2em;
+    margin-top: 2em;
+}
+.blued {
+    border: 4px dashed blue;
+    color: blue;
+    padding: 1em;
+}
+li {
+    border: 3px dashed green;
+    padding: 1em; 
+    margin-top: 1em;
+}
+.inLine li {
+    display: inline;
+    border: 3px dashed blue;
+}
+.inlineBlock li {
+    display: inline-block;
+    border: 3px dashed red;
+}
+* {
+    box-sizing: border-box;
+}
+body {
+    border: 2px solid blue;
+    margin: 1em auto;
+    padding: 1em;
+    max-width: 50em;
+}
+.box {
+    width: 50%;
+    padding: 1em;
+    float: left;
+}
+.bigL {
+    float: left;
+    font-size: 4em;
+    padding: 0.5em;
+}
+.imgR{
+    float: right;
+    width: 12em;
+    padding-left: 0.3em;
+}
+.group:before,
+.group:after {
+    content:"";
+    display: table;
+}
+.group:after{
+    clear: both;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+body {
+	max-width: 60em;
+	 margin: 0 auto;
+	 font-family: sans-serif;
+}
+
+footer p {
+  text-align: center;
+}
+div{
+	flex-grow: 1;
+	flex-shrink: 1;
+	flex-basis: auto;
+}
+.box {
+	font-size: 1.2em;
+	height: 5em;
+	display:flex;
+	align-items: center;
+	justify-content: center;
+}
+.row {
+	display: flex;
+	flex-flow: row-reverse wrap;
+}
+.row div{
+	flex-grow: 1;
+	align-items: center;
+}
+.col{
+	display:flex;
+	flex-flow:column-reverse
+}
+.gulur {
+	background-color: yellow; 
+}
+.raudur {
+	background-color: red; 
+}
+.graenn {
+	background-color: lime;
+}
+.blar {
+	background-color: cyan; 
+}
+
+.kassi{
+    float: left;
+    width: 50%;
+}
